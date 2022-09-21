@@ -1,0 +1,19 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        String[] students=new String[3];
+        students[0]="Tayyibe";
+        students[1]="Ryan";
+        students[2]="Isa";
+
+        for (String student : students)
+        {
+            System.out.println(student);
+        }
+        for(String student:students)
+        {
+            System.out.println(student);
+        }
+    }
+}
